@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="resources/sheet.css">
+<style type="text/css">
+    .ritz1 .waffle1 a { color: inherit; }.ritz1 .waffle1 .s2{border-bottom:1px SOLID #efefef;border-right:3px SOLID #000000;background-color:#f7cb4d;text-align:center;font-weight:bold;font-style:italic;color:#0f31a0;font-family:'docs-skolar-1',Arial;font-size:9pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s16{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:left;color:#002028;font-family:'docs-skolar-1',Arial;font-size:14pt;vertical-align:middle;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s1{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-style:italic;color:#3c78d8;font-family:'docs-athelas-1',Arial;font-size:12pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s15{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:middle;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s18{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-style:italic;color:#3c78d8;font-family:'docs-athelas-1',Arial;font-size:12pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s7{border-bottom:1px SOLID #efefef;border-right:3px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s8{border-bottom:1px SOLID #efefef;border-right:3px SOLID #000000;background-color:#fef8e3;text-align:center;font-style:italic;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s17{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-style:italic;color:#3c78d8;font-family:'Arial';font-size:12pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s6{border-bottom:1px SOLID #efefef;border-right:1px SOLID #efefef;background-color:#ffffff;text-align:left;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s14{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-style:italic;color:#002028;font-family:'docs-skolar-1',Arial;font-size:14pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s0{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-style:italic;color:#3c78d8;font-family:'Arial';font-size:12pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s5{border-bottom:1px SOLID #efefef;border-right:3px SOLID #000000;background-color:#ffffff;text-align:center;font-style:italic;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s4{border-bottom:1px SOLID #efefef;border-right:3px SOLID #000000;background-color:#f7cb4d;text-align:center;font-weight:bold;color:#0f31a0;font-family:'docs-skolar-1',Arial;font-size:9pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s9{border-bottom:1px SOLID #efefef;border-right:1px SOLID #efefef;background-color:#fef8e3;text-align:left;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s10{border-bottom:1px SOLID #efefef;border-right:3px SOLID #000000;background-color:#fef8e3;text-align:left;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s11{border-bottom:1px SOLID #ffffff;border-right:3px SOLID #000000;background-color:#ffffff;text-align:center;font-style:italic;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s13{border-bottom:1px SOLID #ffffff;border-right:3px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s3{border-bottom:1px SOLID #efefef;border-right:1px SOLID #efefef;background-color:#f7cb4d;text-align:center;font-weight:bold;color:#0f31a0;font-family:'docs-skolar-1',Arial;font-size:9pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s12{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #efefef;background-color:#ffffff;text-align:left;color:#000000;font-family:'docs-skolar-1',Arial;font-size:5pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}
+    .ritz1 .waffle1 a { color: inherit; }.ritz1 .waffle1 .st5{border-bottom:1px SOLID #ffffff;background-color:#ffffff;}.ritz1 .waffle1 .st2{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-style:italic;color:#3d85c6;font-family:'Arial';font-size:9pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .st6{border-right:1px SOLID #ffffff;background-color:#ffffff;}.ritz1 .waffle1 .st3{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#f7cb4d;text-align:center;font-style:italic;color:#3d85c6;font-family:'Arial';font-size:9pt;vertical-align:middle;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .st4{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:5pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .st7{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-style:italic;color:#3c78d8;font-family:'docs-athelas-1',Arial;font-size:12pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .s0{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:center;font-weight:bold;color:#3d85c6;font-family:'Arial';font-size:24pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz1 .waffle1 .st1{border-bottom:1px SOLID #ffffff;border-right:1px SOLID #ffffff;background-color:#ffffff;text-align:left;font-style:italic;color:#3d85c6;font-family:'Arial';font-size:9pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}
+    .grid-container {background-color:#ffffff}
+</style>
+</head>
+<div class="ritz1 grid-container" dir="ltr">
+    <table class="waffle1" cellspacing="0" cellpadding="0">
+        <colgroup>
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+            <col span="1" style="width:158px">
+        </colgroup>
+        <tbody>
+        <tr style='height:20px;'>
+            <td class="s0" dir="ltr" colspan="10">Meaningness: All Dimensions</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+            <td class="st1"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="st2"></td>
+            <td class="st3">The mistaken metaphysical assumption</td>
+            <td class="st3">What it denies and what it fixates</td>
+            <td class="st3">Pattern of thinking</td>
+            <td class="st3">Sales pitch and emotional appeal</td>
+            <td class="st3">How a confused stance causes suffering</td>
+            <td class="st3">Obstacles to maintaining a stance</td>
+            <td class="st3">Likely next stances</td>
+            <td class="st3">Antidotes and counter-thoughts</td>
+            <td class="st3">Intelligent features of a confused stance</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="st4" dir="ltr">Each stance, or basic attitude toward meaningness, is a transient pattern of
+                thinking, feeling, and acting. The Meaningness practice involves learning to recognize these patterns.
+                Then you know what stance you are in at any moment, and ways to shift from any confused stance to a
+                complete one.
+            </td>
+            <td class="st4" dir="ltr">A confused stance is based on an underlying mistaken metaphysical assumption. The
+                assumption is usually unthought: not understood, or entirely outside awareness. Typically the assumption
+                draws a distinction that is a false dilemma; so confused stances mainly come in pairs, which share the
+                underlying assumption but take opposite sides of it.<br><br>Surfacing the assumption, and seeing how it
+                is wrong, makes it possible to understand and adopt the corresponding complete stance.
+            </td>
+            <td class="st4" dir="ltr">Each confused stance wrongly denies something about meaningness, and fixates
+                something else. Stances allied with eternalism deny the nebulosity of a dimension of meaningness, and
+                fixate a pattern. Stances allied with nihilism deny the pattern and fixate the dimension’s
+                non-existence.<br><br>Recognizing how nebulosity and pattern work together moves one into the complete
+                stance for that dimension.
+            </td>
+            <td class="st4" dir="ltr">When you adopt a stance, a characteristic texture of thinking, feeling, and perhaps
+                acting comes with it. The stance makes that way of being seem sensible. Also, that way of being makes
+                the stance seem sensible.
+                <br>
+                <br>For example, nihilism usually makes you depressed. Likewise, when you are depressed for other
+                reasons, nihilism may seem obviously right.
+            </td>
+            <td class="st4" dir="ltr">The “sales pitch” is a slogan that encapsulates the language used to promote the
+                stance.
+                <br>
+                <br>A confused stance’s emotional appeal is the reason it is attractive. Each confused stance plays to
+                some need for security, excitement, or self-aggrandizement.
+                <br>
+                <br>Noticing that you are getting sucked in by the emotional promise made by a confused stance, and
+                knowing that it cannot deliver on them, helps free you from it.
+                <br>
+                <br>The complete stances are, unfortunately, less emotionally appealing. (Otherwise, we’d adopt them
+                easily.) However, they are more realistic.
+            </td>
+            <td class="st4" dir="ltr">Confused stances distort experience by fixating and denying particular sorts of
+                meaningness. When these mistaken perceptions collide with reality, emotional pain results.
+                <br>
+                <br>Each confused stance produces a characteristic pattern of misunderstanding and misery.
+            </td>
+            <td class="st4" dir="ltr">The confused stances constantly collide with reality. It is impossible not to see
+                this, and impossible not to suffer the consequences. This makes it impossible to remain consistently in
+                a confused stance; they are always unstable.
+                <br>
+                <br>A confused stance’s patterns of collision with reality—the obstacles to maintaining it—are resources
+                for switching into a complete stance.
+                <br>
+                <br>Unfortunately there are obstacles to adopting the complete stances, as well. Generally, complete
+                stances are conceptually obscure, and appear emotionally unsatisfying.
+            </td>
+            <td class="st4" dir="ltr">Because stances are unstable, we frequently stumble from one to another, without
+                being clearly aware that we are doing this. In fact, all of the confused stances described in this book
+                will be thoroughly familiar to every reader.
+                <br>
+                <br>When a particular obstacle to maintaining one stance arises, there are typical routes into likely
+                next stances. Knowing this, one can recognize an upcoming transition into a confused stance, and
+                re-direct oneself into a complete stance instead.
+            </td>
+            <td class="st4" dir="ltr">These are ways of getting yourself out of a confused stance.
+                <br>
+                <br>Simply recognizing that you are caught in one, and remembering that there is a better alternative,
+                is often most of the battle.
+                <br>
+                <br>Beyond that, one can notice particular confused patterns, and cut through them with specific
+                counter-thoughts.1 Counter-thoughts can work in two ways. Some move from a confused stance to the
+                complete stance. Others destabilize the confused stance, to make it less attractive so that you are more
+                likely to jump to the complete stance spontaneously. (In those cases, though, one needs to guard against
+                simply moving to a different confused stance.)
+            </td>
+            <td class="st4" dir="ltr">Each confused stance is intelligent in some way. If it did not have a powerful
+                logic to it, an almost-truth, we would not get stuck in it. Each approximates a complete stance, which
+                is actually correct.
+                <br>
+                <br>Noticing how the confused stance you have adopted is nearly right is helpful in several ways:
+                <br>
+                <br> • It avoids “I’m a bad person because I fell into a confused stance again,” which is discouraging,
+                and more likely to make you abandon the practice than to continue.
+                <br> • It lets you see why you’ve adopted it.
+                <br> • It helps point the way to a complete stance that shares the same accurate insight.
+                <br> • It is the basis for appropriation—the use of a confused stance to communicate the corresponding
+                complete stance.
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <br/>
+    <table class="waffle1" cellspacing="0" cellpadding="0">
+        <colgroup>
+            <col span="1" style="width:80px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+            <col span="1" style="width:100px">
+        </colgroup>
+        <tbody>
+        <tr style='height:20px;'>
+            <td class="s0"></td>
+            <td class="s1" colspan="3">Meaning and meaninglessness</td>
+            <td class="s1" colspan="3">Unity, diversity, and separateness</td>
+            <td class="s1" colspan="3">Purpose</td>
+            <td class="s1" colspan="3">Self</td>
+            <td class="s1" colspan="3">Personal value</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s2">Stance</td>
+            <td class="s3">Eternalism</td>
+            <td class="s3">Nihilism</td>
+            <td class="s4">Meaning/ness</td>
+            <td class="s3">Monism</td>
+            <td class="s3">Dualism</td>
+            <td class="s4">Participation</td>
+            <td class="s3">Mission</td>
+            <td class="s3">Materialism</td>
+            <td class="s4">Enjoyable usefulness</td>
+            <td class="s3">The authentic, true, deep self</td>
+            <td class="s3">Selflessness</td>
+            <td class="s4">Intermittently continuing</td>
+            <td class="s3">Specialness</td>
+            <td class="s3">Ordinariness</td>
+            <td class="s4">Nobility</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Summary</td>
+            <td class="s6">Everything is given a fixed meaning by an eternal ordering principle (Cosmic Plan)</td>
+            <td class="s6">Nothing is really meaningful</td>
+            <td class="s7">Meaning is nebulous, yet patterned; meaningfulness and meaninglessness intermingle</td>
+            <td class="s6">All is One</td>
+            <td class="s6">I am clearly distinct from everything and everyone else</td>
+            <td class="s7">Reality is indivisible but diverse</td>
+            <td class="s6">Only eternal purposes are meaningful</td>
+            <td class="s6">Only mundane purposes are meaningful</td>
+            <td class="s7">All purposes are meaningful, when they are. Do things that are useful and enjoyable.</td>
+            <td class="s6">The hidden, true self is directly connected to the Cosmic Plan, bypassing social
+                constrictions
+            </td>
+            <td class="s6">There is, or should be, no self</td>
+            <td class="s7">Selfness comes and goes; it varies over time and has no essential nature</td>
+            <td class="s6">I have a distinct and superior value given by the eternal ordering principle</td>
+            <td class="s6">My value comes from being like everyone else</td>
+            <td class="s7">Developing all my abilities in order to serve others</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">What it denies</td>
+            <td class="s9">Nebulosity; meaninglessness</td>
+            <td class="s9">Pattern; meaningfulness</td>
+            <td class="s10"></td>
+            <td class="s9">Differences, boundaries, specifics, individuality</td>
+            <td class="s9">Connection, dynamic interplay, unbounded responsibility</td>
+            <td class="s10"></td>
+            <td class="s9">Value of mundane purposes</td>
+            <td class="s9">Value of eternal purposes</td>
+            <td class="s10"></td>
+            <td class="s9">Nebulosity of self</td>
+            <td class="s9">Patterns of self; the self/other boundary; natural self-interest</td>
+            <td class="s10"></td>
+            <td class="s9">Shared humanity</td>
+            <td class="s9">Unusualness</td>
+            <td class="s10"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">What it fixates</td>
+            <td class="s6">Meaning</td>
+            <td class="s6">Meaninglessness</td>
+            <td class="s7"></td>
+            <td class="s6">Unity; also over-emphasizes connection</td>
+            <td class="s6">Boundaries, separateness, limitations, definitions</td>
+            <td class="s7"></td>
+            <td class="s6">Value of eternal purposes</td>
+            <td class="s6">Value of mundane purposes</td>
+            <td class="s7"></td>
+            <td class="s6">The patterns of selfness; the self/other boundary</td>
+            <td class="s6">Discontinuity; absence of self/other boundary</td>
+            <td class="s7"></td>
+            <td class="s6">Personal value</td>
+            <td class="s6">Personal value</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">The sales pitch</td>
+            <td class="s9">You are guaranteed a good outcome if you follow the rules</td>
+            <td class="s9">You don’t have to care!<br>Don’t get fooled again</td>
+            <td class="s10">Accurate understanding of meaningness allows both freedom and purpose</td>
+            <td class="s9">You are God</td>
+            <td class="s9">Clarity gives you control</td>
+            <td class="s10"></td>
+            <td class="s9">Find and follow your true mission, and the universe resonates with you</td>
+            <td class="s9">He who dies with the most toys, wins</td>
+            <td class="s10">There is no scoreboard</td>
+            <td class="s9">Your true self is much more exciting than your yucky regular one</td>
+            <td class="s9">You can get rid of your yucky regular self</td>
+            <td class="s10">The patterned self is unproblematic once its nebulosity is accepted</td>
+            <td class="s9">You are better than they are</td>
+            <td class="s9">Don’t put on airs</td>
+            <td class="s10">Be all you can be</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Emotional appeal</td>
+            <td class="s6">Certainty; understanding; control. Reassurance that if you act in accordance with Cosmic
+                Plan, everything will be well.
+            </td>
+            <td class="s6">Intelligence. Also, nothing means anything, so not getting what you want is not a problem.
+            </td>
+            <td class="s7"></td>
+            <td class="s6">I am all-powerful, all-knowing, immortal, invulnerable</td>
+            <td class="s6">I am not contaminated by other beings, and have only specific, limited responsibility for
+                them
+            </td>
+            <td class="s7"></td>
+            <td class="s6">Exciting, personal, transcendent purpose lifts you out of mundanity</td>
+            <td class="s6">Get what you want</td>
+            <td class="s7"></td>
+            <td class="s6">I’m much better than I thought I was</td>
+            <td class="s6">I have nothing to lose</td>
+            <td class="s7"></td>
+            <td class="s6">Reinforces ego</td>
+            <td class="s6">No need to live up to potential</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Pattern of thinking</td>
+            <td class="s9">Deliberate stupidity; sentimentality; self-righteousness</td>
+            <td class="s9">Contempt; rage; intellectualization; depression; anxiety</td>
+            <td class="s10">Joyful realism</td>
+            <td class="s9">Willful stupidity</td>
+            <td class="s9">Distrust</td>
+            <td class="s10">Engagement</td>
+            <td class="s9">Fantasy; non-ordinary methods for seeking the supposed true mission</td>
+            <td class="s9">Grim self-interest</td>
+            <td class="s10">Flow</td>
+            <td class="s9">Romantic idolization of fantasy self</td>
+            <td class="s9">Willful blindness to continuity and self-interest</td>
+            <td class="s10">Humorous affection for one’s foibles; absence of anxiety</td>
+            <td class="s9">Disdain; self-aggrandisement</td>
+            <td class="s9">Fearfulness, laziness</td>
+            <td class="s10">Impeccability</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Likely next stances</td>
+            <td class="s6">Mission</td>
+            <td class="s6">Materialism</td>
+            <td class="s7"></td>
+            <td class="s6">Eternalism, mission, true self, specialness</td>
+            <td class="s6">Can combine with either eternalism or nihilism</td>
+            <td class="s7"></td>
+            <td class="s6">Eternalism; specialness, true self</td>
+            <td class="s6">Nihilism; ordinariness</td>
+            <td class="s7">Nobility, intermittently continuing</td>
+            <td class="s6">Eternalism, monism, specialness</td>
+            <td class="s6">Nihilism, ordinariness</td>
+            <td class="s7">Nobility, enjoyable usefulness</td>
+            <td class="s6">Mission, true self</td>
+            <td class="s6">Materialism</td>
+            <td class="s7">Enjoyable usefulness</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Accomplishment</td>
+            <td class="s9">Unify your self with Cosmic Plan</td>
+            <td class="s9">Total apathy</td>
+            <td class="s10">Wizardry</td>
+            <td class="s9">Directly perceive all things as One</td>
+            <td class="s9">Perfect independence</td>
+            <td class="s10">Self and other neither distinct nor identical</td>
+            <td class="s9">Sacrifice all mundane purposes to eternal mission (saintliness)</td>
+            <td class="s9">Exclusive self-interest</td>
+            <td class="s10">Rennaisance person</td>
+            <td class="s9">Authenticity in sense of living from true self instead of regular self</td>
+            <td class="s9">Egolessness</td>
+            <td class="s10">Conjuring supple, playful magic in the shared self/other space</td>
+            <td class="s9">Autoapotheosis</td>
+            <td class="s9">Baaaaaa</td>
+            <td class="s10">Heroism</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">How it causes suffering</td>
+            <td class="s6">Action based on imagined meanings fails; narrowed scope for action; Cosmic Plan makes insane,
+                harmful demands
+            </td>
+            <td class="s6">Have to blind self to meaningfulness; undermines any practical action</td>
+            <td class="s7"></td>
+            <td class="s6">Have to blind self to diversity of physical reality</td>
+            <td class="s6">Alienation due to being cut off from world and others</td>
+            <td class="s7"></td>
+            <td class="s6">Can never find your supposed true mission; neglect mundane aspects of life</td>
+            <td class="s6">Can never get enough; alienation from others and from authentic creativity</td>
+            <td class="s7"></td>
+            <td class="s6">Attempts to retrieve supposed true self fail; attempts to live up to it fail</td>
+            <td class="s6">Neglecting practical personal affairs</td>
+            <td class="s7"></td>
+            <td class="s6">Ego-trips; role anxiety; need for constant confirmation</td>
+            <td class="s6">Suppression of individuality</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Obstacles to maintaining the stance</td>
+            <td class="s9">Difficulty of blinding oneself to manifestations of nebulosity, and submitting to Cosmic
+                Plan
+            </td>
+            <td class="s9">Difficulty of blinding self to manifestations of pattern, and abandoning all desires</td>
+            <td class="s10">Unappealing due to complexity and uncertainty</td>
+            <td class="s9">Obviousness of diversity</td>
+            <td class="s9">Obviousness of connection</td>
+            <td class="s10">Difficulty of understanding the philosophical view</td>
+            <td class="s9">Reasonable self-interest</td>
+            <td class="s9">Compassion, creativity</td>
+            <td class="s10">Is that it? No hope of completing purpose, so no hope for salvation or basis for
+                self-congratulation
+            </td>
+            <td class="s9">Non-existence of true self</td>
+            <td class="s9">Manifestations of regular self</td>
+            <td class="s10">Fear of discontinuity; cannot repair or remove self</td>
+            <td class="s9">Familiarity of experience; maintaining image is exhausting</td>
+            <td class="s9">Unusual impulses; cannot conform to herd</td>
+            <td class="s10">Selfishness; fear; laziness</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Antidotes; counter-thoughts</td>
+            <td class="s6">Curiosity; realism; intelligence; enjoyment of nebulosity, meaninglessness, un-knowing</td>
+            <td class="s6">Enjoyment of pattern; recovery of passion</td>
+            <td class="s7"></td>
+            <td class="s6">Appreciation of diversity</td>
+            <td class="s6">Appreciation of connectedness</td>
+            <td class="s7"></td>
+            <td class="s6">Mundane purposes matter to me</td>
+            <td class="s6">I do care about others, and about creative work</td>
+            <td class="s7"></td>
+            <td class="s6">No essential nature, no coherent true self</td>
+            <td class="s6">I have much in common with who I was and will be</td>
+            <td class="s7"></td>
+            <td class="s6">Recognition of shared humanity</td>
+            <td class="s6">Recognition of potential and uniqueness</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Intelligent aspect</td>
+            <td class="s9">There is meaning, and it is not merely subjective, so nihilism is wrong</td>
+            <td class="s9">There are no inherent, objective, or eternal meanings, so eternalism is wrong</td>
+            <td class="s10"></td>
+            <td class="s9">I am not entirely separate from anything</td>
+            <td class="s9">The world is endlessly diverse</td>
+            <td class="s10"></td>
+            <td class="s9">Eternal purposes are valid; materialism is unsatisfying</td>
+            <td class="s9">Mundane purposes are valid; mission is a fantasy</td>
+            <td class="s10"></td>
+            <td class="s9">Recognizes negative social conditioning &amp; possibility of spontaneity</td>
+            <td class="s9">Recognizes lack of essential nature or durable continuity</td>
+            <td class="s10"></td>
+            <td class="s9">Recognition of potential and uniqueness</td>
+            <td class="s9">Recognition of shared humanity</td>
+            <td class="s10"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s11">Positive appropriation after resolution</td>
+            <td class="s12">Respect for pattern is a compassionate aspect of realism</td>
+            <td class="s12">Recognition of nebulosity is a wisdom aspect of nihilism; nearly-correct understanding of
+                defects of eternalism
+            </td>
+            <td class="s13"></td>
+            <td class="s12">Provisional understanding of indivisibility</td>
+            <td class="s12">Points toward appreciation of diversity</td>
+            <td class="s13"></td>
+            <td class="s12">Creativity and generosity are aspects of enjoyable usefulness</td>
+            <td class="s12">Material satisfaction and accomplishment are aspects of enjoyable usefulness</td>
+            <td class="s13"></td>
+            <td class="s12">Points toward power of nobility: we can be much more than we generally pretend</td>
+            <td class="s12">Points toward generosity of nobility</td>
+            <td class="s13"></td>
+            <td class="s12">Nobility does rise above the ordinary</td>
+            <td class="s12">Humility is an aspect of nobility</td>
+            <td class="s13"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s14"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s16"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s16"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+            <td class="s15"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s17"></td>
+            <td class="s18" colspan="3">Capability</td>
+            <td class="s18" colspan="3">Ethics</td>
+            <td class="s18" colspan="3">Social Authority</td>
+            <td class="s18" colspan="3">Sacredness</td>
+            <td class="s18" colspan="3">Contingency</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s2">Stance</td>
+            <td class="s3">Total responsibility</td>
+            <td class="s3">Victim-think</td>
+            <td class="s4">Light- heartedness</td>
+            <td class="s3">Ethical eternalism</td>
+            <td class="s3">Ethical nihilism</td>
+            <td class="s4">Ethical responsiveness</td>
+            <td class="s3">Reasonable respectability</td>
+            <td class="s3">Romantic rebellion</td>
+            <td class="s4">Freedom</td>
+            <td class="s3">Religiosity</td>
+            <td class="s3">Secularism</td>
+            <td class="s4">Kadag</td>
+            <td class="s3">Causality</td>
+            <td class="s3">Chaos</td>
+            <td class="s4">Flow</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Summary</td>
+            <td class="s6">We each create our own reality and are responsible for everything that happens in it</td>
+            <td class="s6">It’s not my fault and I am too weak to deal with it</td>
+            <td class="s7">Playfully co-create reality in collaboration with each other and the world</td>
+            <td class="s6">The Cosmic Plan dictates a fixed ethical code according to which we ought to live</td>
+            <td class="s6">Ethics is a meaningless human invention and has no real claim on us</td>
+            <td class="s7">Ethics is centrally important to humans, and is not a matter of choice, but is fluid and has
+                no definite source
+            </td>
+            <td class="s6">Contribute to social order by conforming to traditions</td>
+            <td class="s6">Make an artistic statement by defying authority</td>
+            <td class="s7">Value social order as a resource; satirize it as an impediment</td>
+            <td class="s6">The sacred and the profane are clearly distinct in the Cosmic Plan</td>
+            <td class="s6">Sacredness is mere superstition; nothing is sacred</td>
+            <td class="s7">Because nothing is inherently sacred, everything can be sacred</td>
+            <td class="s6">Everything happens for the best, in accord with the Cosmic Plan. (Except free will lets us do
+                evil.)
+            </td>
+            <td class="s6">The universe is random; nothing happens for any particular reason</td>
+            <td class="s7">There are no ultimate causes, and causation is nebulous, but we naturally observe patterns
+            </td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">What it denies</td>
+            <td class="s9">Contingency, limits</td>
+            <td class="s9">Responsibility, capability, freedom</td>
+            <td class="s10"></td>
+            <td class="s9">Ambiguity of ethics; freedom; courage; creativity</td>
+            <td class="s9">Ethical imperativeness</td>
+            <td class="s10"></td>
+            <td class="s9">Nebulosity of social order</td>
+            <td class="s9">Value of social order</td>
+            <td class="s10"></td>
+            <td class="s9">Nebulosity of sacredness; vastness</td>
+            <td class="s9">Sacredness; vastness</td>
+            <td class="s10"></td>
+            <td class="s9">Pointless suffering</td>
+            <td class="s9">Interpretability</td>
+            <td class="s10"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">What it fixates</td>
+            <td class="s6">Responsibility</td>
+            <td class="s6">Overwhelming power of circumstances</td>
+            <td class="s7"></td>
+            <td class="s6">Ethical code (rules/laws)</td>
+            <td class="s6">Absence of ethical absolutes</td>
+            <td class="s7"></td>
+            <td class="s6">Social order</td>
+            <td class="s6">Heroic status of the counter-culture</td>
+            <td class="s7"></td>
+            <td class="s6">The sacred</td>
+            <td class="s6">Arbitrariness of perception of sacredness</td>
+            <td class="s7"></td>
+            <td class="s6">Reasons</td>
+            <td class="s6">[Nothing]</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">The sales pitch</td>
+            <td class="s9">Perfect circumstances can be achieved with sufficient effort</td>
+            <td class="s9">You are oppressed and therefore blameless</td>
+            <td class="s10"></td>
+            <td class="s9">Cosmic justice guarantees reward/punishment if you obey/defy the ethical code</td>
+            <td class="s9">Do as thou wilt shall be the whole of the Law</td>
+            <td class="s10">Ethical anxiety is unnecessary</td>
+            <td class="s9">Law’n’order</td>
+            <td class="s9">Death to the oppressors!</td>
+            <td class="s10"></td>
+            <td class="s9">Avoid contamination through ritual purity</td>
+            <td class="s9">Freed from religion, we can get on with practical projects</td>
+            <td class="s10">The good bits of religion without the dogma</td>
+            <td class="s9">There is no need to suffer, so long as you conform to the Cosmic Plan</td>
+            <td class="s9">[This is a hard sell ] God is dead.</td>
+            <td class="s10">Dance with reality</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Emotional appeal</td>
+            <td class="s6">Fantasy of control over future</td>
+            <td class="s6">No need to make any effort</td>
+            <td class="s7">No need for self-criticism or for anxiety</td>
+            <td class="s6">Avoiding blame; preventing others from harming/offending you</td>
+            <td class="s6">Take what you want; don’t let morality get in the way</td>
+            <td class="s7"></td>
+            <td class="s6">It’s safe</td>
+            <td class="s6">It’s sexy</td>
+            <td class="s7"></td>
+            <td class="s6">Personal superiority through religious conformity; minimize uncanniness of vastness by
+                codifying it
+            </td>
+            <td class="s6">Don’t have to think about that uncomfortable religion stuff; pretend you don’t see vastness
+                and hope it goes away
+            </td>
+            <td class="s7">Can neither dismiss nor grab onto sacredness</td>
+            <td class="s6">Can pretend there is no pointless suffering</td>
+            <td class="s6">[This may be only a theoretical possibility]</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Pattern of thinking</td>
+            <td class="s9">Aggressive, paranoid</td>
+            <td class="s9">Fearful, depressed, emotionally manipulative</td>
+            <td class="s10">Effortless accomplishment</td>
+            <td class="s9">Self-righteousness</td>
+            <td class="s9">Arrogance</td>
+            <td class="s10">Light-hearted concern</td>
+            <td class="s9">Emotional constriction</td>
+            <td class="s9">Confused romantic passion, testosterone poisoning</td>
+            <td class="s10">Political maturity</td>
+            <td class="s9">Self-righteousness</td>
+            <td class="s9">Pretending not to care about meaning; apathy</td>
+            <td class="s10">Awe</td>
+            <td class="s9">Kitsch</td>
+            <td class="s9">Despair</td>
+            <td class="s10">Realism</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Likely next stances</td>
+            <td class="s6">Specialness, true self, mission</td>
+            <td class="s6">Ordinariness, materialism</td>
+            <td class="s7">Nobility, ethical responsiveness</td>
+            <td class="s6">Religiosity, mission</td>
+            <td class="s6">Secularism, materialism</td>
+            <td class="s7">Light-heartedness, nobility</td>
+            <td class="s6">Ordinariness; dualism</td>
+            <td class="s6">Specialness; mission; nihilistic rage; true self</td>
+            <td class="s7">Nobility, light-heartedness, kadag</td>
+            <td class="s6">Reasonable respectability, mission, specialness</td>
+            <td class="s6">Materialism, ordinariness</td>
+            <td class="s7">Freedom</td>
+            <td class="s6">Eternalism, religiosity</td>
+            <td class="s6">Nihilism, secularism</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Accomplishment</td>
+            <td class="s9">King of the Universe</td>
+            <td class="s9">Have all needs met by exploiting others’ pity</td>
+            <td class="s10">Effortless creativity</td>
+            <td class="s9">Remorseless soldier of God</td>
+            <td class="s9">Sociopathy</td>
+            <td class="s10">Ethical maturity</td>
+            <td class="s9">Pillar of society</td>
+            <td class="s9">Romantic martyrdom</td>
+            <td class="s10"></td>
+            <td class="s9">Perfect ritual purity</td>
+            <td class="s9">Total inability to experience awe</td>
+            <td class="s10">Ability to experience anything as sacred</td>
+            <td class="s9">Pollyanna, Candide</td>
+            <td class="s9">La Nausé (Sartre)</td>
+            <td class="s10">Maximal ability to influence events, without attachment to outcome</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">How it causes suffering</td>
+            <td class="s6">Hypervigilance; can’t meet infinite requirements with finite capacity</td>
+            <td class="s6">Resentment, depression, neglect of opportunities</td>
+            <td class="s7"></td>
+            <td class="s6">Harmful actions are sometimes required by the supposed rules; beneficial ones may not be
+                promoted
+            </td>
+            <td class="s6">Without ethics, harmful actions are just rational self-interest</td>
+            <td class="s7"></td>
+            <td class="s6">Complicity in oppression; abandoning of responsibility and moral maturity</td>
+            <td class="s6">Opposes realistic action to ameliorate conditions; justifies violence</td>
+            <td class="s7"></td>
+            <td class="s6">Paranoia about contamination; resources and opportunities wasted; tribalist vilification</td>
+            <td class="s6">Flatness of existence in the absence of the sacred</td>
+            <td class="s7"></td>
+            <td class="s6">Denying pointless suffering makes it hard to alleviate</td>
+            <td class="s6">[Theoretically, inability to take practical action]</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Obstacles to maintaining the stance</td>
+            <td class="s9">Obviousness of limits</td>
+            <td class="s9">Obviousness of opportunities</td>
+            <td class="s10">Hard to let go of need to be reassured about outcomes</td>
+            <td class="s9">Situations in which ethical rules are unclear or promote obvious harm</td>
+            <td class="s9">Natural concern for others</td>
+            <td class="s10">Requires close attention to particulars; no guarantee of blamelessness</td>
+            <td class="s9">Social conventions stifle expression and opportunity</td>
+            <td class="s9">Silly; doomed by definition</td>
+            <td class="s10">Urgency of social imperatives</td>
+            <td class="s9">Obvious mundanity of religious forms</td>
+            <td class="s9">Spontaneous religious feelings</td>
+            <td class="s10">Innate reactions of disgust</td>
+            <td class="s9">Obviousness of pointless suffering (our own and others’)</td>
+            <td class="s9">Obviousness of causality</td>
+            <td class="s10">No guarantees</td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s5">Antidotes; counter-thoughts</td>
+            <td class="s6">Letting go of fantasies of accomplishment; willingness to fail</td>
+            <td class="s6">Gratitude; letting go of payoffs; walking away; practical action</td>
+            <td class="s7"></td>
+            <td class="s6">Allowing ethical ambiguity</td>
+            <td class="s6">Respecting ethical imperatives</td>
+            <td class="s7"></td>
+            <td class="s6">Who cares what they think?</td>
+            <td class="s6">I’m being silly and just striking a pose to look cool</td>
+            <td class="s7"></td>
+            <td class="s6">Purity is a matter of perception, not truth</td>
+            <td class="s6">I do sometimes experience awe</td>
+            <td class="s7"></td>
+            <td class="s6">Lots of stuff just happens</td>
+            <td class="s6">[Probably not necessary]</td>
+            <td class="s7"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s8">Intelligent aspect</td>
+            <td class="s9">Recognition of possibility</td>
+            <td class="s9">Recognition of limits</td>
+            <td class="s10"></td>
+            <td class="s9">Recognizes the importance of ethics</td>
+            <td class="s9">Recognizes the ambiguity of ethics</td>
+            <td class="s10"></td>
+            <td class="s9">Recognizes value of social order</td>
+            <td class="s9">Recognizes arbitrary and restrictive character of social order</td>
+            <td class="s10"></td>
+            <td class="s9">Recognition of sacredness</td>
+            <td class="s9">Recognition that nothing is inherently sacred</td>
+            <td class="s10"></td>
+            <td class="s9">Things often do make sense</td>
+            <td class="s9">Things often are inherently uninterpretable</td>
+            <td class="s10"></td>
+        </tr>
+        <tr style='height:20px;'>
+            <td class="s11">Positive appropriation after resolution</td>
+            <td class="s12">Experience depends more on our own perception &amp; action than is usually thought</td>
+            <td class="s12">Because we have finite capabilities, we can cut ourselves some slack</td>
+            <td class="s13"></td>
+            <td class="s12">Points toward nobility</td>
+            <td class="s12">Points toward ethical maturity</td>
+            <td class="s13">Creativity and generosity are aspects of enjoyable usefulness</td>
+            <td class="s12">Points toward kingly qualities of nobility; society as a beneficial structure</td>
+            <td class="s12">Points toward warrior qualities of nobility; charismatically involving; makes splendid art
+            </td>
+            <td class="s13">Points toward power of nobility: we can be much more than we generally pretend</td>
+            <td class="s12">Sacredness matters</td>
+            <td class="s12">Narrow religion is harmful; something better is available</td>
+            <td class="s13">Nobility does rise above the ordinary</td>
+            <td class="s12">Points toward pragmatic competence</td>
+            <td class="s12">Points toward comfort with uncertainty</td>
+            <td class="s13"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script type='text/javascript' nonce='k+SggVkGsDTRVF+0TDBdlA'>
+function posObj(sheet, id, row, col, x, y) {
+  var rtl = false;
+  var sheetElement = document.getElementById(sheet);
+  if (!sheetElement) {
+    sheetElement = document.getElementById(sheet + '-grid-container');
+  }
+  if (sheetElement) {
+    rtl = sheetElement.getAttribute('dir') == 'rtl';
+  }
+  var r = document.getElementById(sheet+'R'+row);
+  var c = document.getElementById(sheet+'C'+col);
+  if (r && c) {
+    var objElement = document.getElementById(id);
+    var s = objElement.style;
+    var t = y;
+    while (r && r != sheetElement) {
+      t += r.offsetTop;
+      r = r.offsetParent;
+    }
+    var offsetX = x;
+    while (c && c != sheetElement) {
+      offsetX += c.offsetLeft;
+      c = c.offsetParent;
+    }
+    if (rtl) {
+      offsetX -= objElement.offsetWidth;
+    }
+    s.left = offsetX + 'px';
+    s.top = t + 'px';
+    s.display = 'block';
+    s.border = '1px solid #000000';
+  }
+};
+function posObjs() {
+};
+posObjs();
+</script>
+</html>
